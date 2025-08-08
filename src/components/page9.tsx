@@ -123,6 +123,7 @@ const Page9 = () => {
         Enroll Today – Save $169
       </div>
 
+
       {/* Right arrow (visible by default) */}
       <div className="group-hover:opacity-0 opacity-100 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
         <img 
@@ -132,6 +133,13 @@ const Page9 = () => {
         />
       </div>
     </a>
+
+     <img
+              src="/text.png"
+              alt="text"
+              className="h-full w-auto object-contain absolute left-5/6 top-1/2 -translate-y-1/2"
+              style={{ background: "transparent" }}
+            />
   </div>
 </div>
 

@@ -109,6 +109,8 @@ export default function FaqSection() {
         </p>
         <div className="flex justify-center mb-4 mt-2 w-full">
   <div className="relative flex justify-center w-full">
+
+
     {/* Centered Button with exact color */}
     <a
       href="./#pricing"
@@ -138,6 +140,8 @@ export default function FaqSection() {
         />
       </div>
     </a>
+
+    
   </div>
 </div>
 
