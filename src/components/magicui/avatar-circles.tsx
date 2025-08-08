@@ -28,17 +28,17 @@ export const AvatarCircles = ({
         >
           <img
             key={index}
-            className="h-10 w-10 rounded-full border-2 border-white dark:border-gray-800"
+            className="h-16 w-16 rounded-full border-2 border-white"
             src={url.imageUrl}
-            width={40}
-            height={40}
+            width={60}
+            height={60}
             alt={`Avatar ${index + 1}`}
           />
         </a>
       ))}
       {(numPeople ?? 0) > 0 && (
         <a
-          className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-black text-center text-xs font-medium text-white hover:bg-gray-600 dark:border-gray-800 dark:bg-white dark:text-black"
+          className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-white bg-black text-center text-xs font-medium text-white hover:bg-gray-600 dark:border-gray-800 dark:bg-white dark:text-black"
           href=""
         >
           +{numPeople}

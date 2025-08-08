@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="mt-6 border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-lg text-gray-600">
+        <div className="mt-6 border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
           <p>© 2025 Mindly.</p>
           <p>All Rights reserved.</p>
         </div>
