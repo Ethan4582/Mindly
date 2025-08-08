@@ -1,18 +1,19 @@
 import React from 'react';
 import { AvatarCircles } from "@/components/magicui/avatar-circles";
+import { TextAnimate } from './magicui/TextAnimate';
 
 const avatars = [
   {
     imageUrl: "https://avatars.githubusercontent.com/u/59228569",
-    profileUrl: "https://github.com/safethecode",
+    profileUrl: "https://github.com/Ethan4582",
   },
   {
     imageUrl: "https://avatars.githubusercontent.com/u/59442788",
-    profileUrl: "https://github.com/sanjay-mali",
+    profileUrl: "https://github.com/Ethan4582",
   },
   {
     imageUrl: "https://avatars.githubusercontent.com/u/89768406",
-    profileUrl: "https://github.com/itsarghyadas",
+    profileUrl: "https://github.com/Ethan4582",
   },
 ];
 
@@ -29,7 +30,7 @@ const Page9 = () => {
       </div>
       
       {/* Adjusted positions for decorative SVGs */}
-      <div className="absolute top-[20%] left-[15%] w-16 h-16 z-0">
+      <div className="absolute top-[12%] left-[31%] w-16 h-16 z-0">
         <img 
           src="https://framerusercontent.com/images/mYc4VjUYj75reqW1rSgHshSJGAw.svg" 
           alt="decoration-1" 
@@ -37,7 +38,7 @@ const Page9 = () => {
         />
       </div>
       
-      <div className="absolute top-[15%] right-[15%] w-20 h-20 z-0">
+      <div className="absolute top-[12%] right-[31%] w-16 h-16 z-0">
         <img 
           src="https://framerusercontent.com/images/C8PoWljS0YEQT7QiVvx8G9tgQ.svg" 
           alt="decoration-2" 
@@ -45,7 +46,7 @@ const Page9 = () => {
         />
       </div>
       
-      <div className="absolute bottom-[30%] left-[15%]  w-16 h-16  z-0">
+      <div className="absolute top-[38%] left-[20%] w-16 h-16  z-0">
         <img 
           src="https://framerusercontent.com/images/WjjXVW72OIErFGaj6JG50JYD3Uo.svg" 
           alt="decoration-3" 
@@ -53,7 +54,7 @@ const Page9 = () => {
         />
       </div>
       
-      <div className="absolute bottom-[18%] right-[15%] w-16 h-16 z-0">
+      <div className="absolute top-[38%] right-[20%] w-16 h-16 z-0">
         <img 
           src="https://framerusercontent.com/images/q1Wxm69Uqbeu75kbznNUGZA.svg" 
           alt="decoration-4" 
@@ -64,17 +65,31 @@ const Page9 = () => {
 
       
       {/* Content */}
-      <div className="relative z-10 max-w-3xl mx-auto mt-22">
+      <div className="relative z-10 max-w-3xl mx-auto mt-14">
         <p className="text-gray-600 text-[20px] mb-2">Registrations Ongoing!</p>
 
         <div className='justify-center flex'> 
           <AvatarCircles avatarUrls={avatars} />
         </div>
 
-        {/* Main Heading */}
-        <div className="text-4xl font-bold mt-4 text-black mb-2">
-          Enroll Now & Get <span className="text-orange-500">Instant <br /> Access</span> for $497
-        </div>
+
+
+<div className="text-center leading-tight text-[32px] font-extrabold mt-4 text-black mb-2">
+  <TextAnimate>Enroll Now & Get</TextAnimate>
+
+ <div className='col-2'>
+    <span className="text-orange-500">
+    <TextAnimate animation="blurInUp" by="character" once>
+      {" Instant Access  "}
+    </TextAnimate>
+  </span>
+  <TextAnimate animation="blurInUp" by="character" once>
+    for $497
+  </TextAnimate>
+  </div>
+</div>
+
+        
 
         <p className="text-gray-700 mb-6">
           Graduates report promotions, raises, or new
@@ -82,47 +97,51 @@ const Page9 = () => {
           <p>opportunities within 3 months.</p>
         </p>
 
-        <div className="flex justify-center mb-4 w-full">
-          <div className="relative flex justify-center w-full">
-            {/* Centered Button with exact color */}
-            <a
-              href="./#pricing"
-              className="group relative flex items-center transition-all duration-700 rounded-lg px-6 py-3 text-white font-medium shadow-[inset_0_4px_10px_0_rgba(255,255,255,0.1),inset_0_-4px_8px_0_rgba(255,255,255,0.1)] overflow-hidden mx-auto"
-              style={{ backgroundColor: '#F97316', minWidth: '260px', maxWidth: '400px' }}
-            >
-              {/* Left arrow (hidden by default) */}
-              <div className="group-hover:opacity-100 opacity-0 transition-all duration-700 flex items-center justify-center bg-white rounded w-8 h-8">
-                <img 
-                  src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg" 
-                  alt="" 
-                  className="w-4 h-3.5"
-                />
-              </div>
 
-              {/* Button text */}
-              <div className="flex-grow text-center transition-all duration-300 text-base whitespace-nowrap px-2">
-                Enroll Today - Save $169
-              </div>
 
-              {/* Right arrow (visible by default) */}
-              <div className="group-hover:opacity-0 opacity-100 transition-all duration-700 flex items-center justify-center bg-white rounded w-8 h-8">
-                <img 
-                  src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg" 
-                  alt="" 
-                  className="w-4 h-3.5"
-                />
-              </div>
-            </a>
-            {/* Image to the right of the button */}
-            <img
-              src="/text.png"
-              alt="text"
-              className="h-full w-auto object-contain absolute left-5/6  top-1/2 -translate-y-1/2"
-              style={{ background: "transparent" }}
-            />
-          </div>
-        </div>
+
+
+        <div className="flex justify-center mb-4 mt-2 w-full">
+  <div className="relative flex justify-center w-full">
+    {/* Centered Button with exact color */}
+    <a
+      href="./#pricing"
+      className="group relative flex items-center transition-all duration-700 rounded-lg px-4 py-2 text-white font-medium shadow-[inset_0_3px_8px_0_rgba(255,255,255,0.1),inset_0_-3px_6px_0_rgba(255,255,255,0.1)] overflow-hidden mx-auto"
+      style={{ backgroundColor: '#F97316', minWidth: '180px', maxWidth: '360px' }}
+    >
+      {/* Left arrow (hidden by default) */}
+      <div className="group-hover:opacity-100 opacity-0 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
+        <img 
+          src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg" 
+          alt="" 
+          className="w-3 h-3"
+        />
       </div>
+
+      {/* Button text */}
+      <div className="flex-grow text-center transition-all duration-300 text-sm whitespace-nowrap px-1">
+        Enroll Today – Save $169
+      </div>
+
+      {/* Right arrow (visible by default) */}
+      <div className="group-hover:opacity-0 opacity-100 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
+        <img 
+          src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg" 
+          alt="" 
+          className="w-3 h-3"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+
+
+
+
+      </div>
+
+
+
 
       {/* Bottom Feature Row */}
       <div className="relative z-10 mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto text-center">

@@ -2,26 +2,24 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#e9e7e2] w-full py-16 px-4 lg:px-6 lg:px-8">
+    <footer className="bg-[#e9e7e2] w-full py-10 px-3 sm:px-4 lg:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
           {/* Left Column */}
-          <div className="flex flex-col justify-between h-full">
-            <div >
-            <div className="flex items-center space-x-2 mb-4">
-            <a href="/">
-               <img
-                  alt="Mindly logo"
-                  className="h-100% w-100%"
-                  src="https://framerusercontent.com/images/EikAR3cusqcpgBaP6DAo0We2ids.svg"
-               />
-            </a>
-            </div>
-
+          <div className="flex flex-col justify-between h-full items-center md:items-start text-center md:text-left">
+            <div>
+              <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
+                <a href="/">
+                  <img
+                    alt="Mindly logo"
+                    className="h-12 w-auto"
+                    src="https://framerusercontent.com/images/EikAR3cusqcpgBaP6DAo0We2ids.svg"
+                  />
+                </a>
+              </div>
               <p className="text-gray-600 text-[16px]">Learn the skill that turns everyday</p>
               <p className="text-gray-600 mb-8">AI into extraordinary results.</p>
-
-              <div className="flex space-x-3 mt-58">
+              <div className="flex justify-center md:justify-start mt-68 space-x-3 mt-4">
                 <a className="bg-white p-2 rounded-md shadow-lg hover:bg-gray-100" href="https://cv-pink-two.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="h-5 w-5" src="https://framerusercontent.com/images/2xorAgyqmiwmlkzDuNiEPrs.svg" alt="YouTube" />
                 </a>
@@ -39,7 +37,7 @@ const Footer = () => {
           </div>
 
           {/* Middle Column */}
-          <div>
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-[21px] font-semibold text-gray-900 mb-4">Links</h3>
             <ul className="space-y-3 mb-6">
               <li><a className="text-gray-600 hover:text-gray-900 hoverOrange" href="#">Curriculum</a></li>
@@ -56,7 +54,7 @@ const Footer = () => {
           </div>
 
           {/* Right Column */}
-          <div>
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Others</h3>
             <ul className="space-y-3 text-[16px] mb-8">
               <li><a className="text-gray-600 hover:text-gray-900 hoverOrange" href="#">Terms of Service</a></li>
@@ -75,7 +73,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="mt-6 border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+        <div className="mt-6 border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-2">
           <p>© 2025 Mindly.</p>
           <p>All Rights reserved.</p>
         </div>
