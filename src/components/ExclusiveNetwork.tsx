@@ -1,23 +1,24 @@
 import React from 'react';
+import { TextAnimate } from './magicui/TextAnimate';
 
 const ExclusiveNetwork = () => {
   return (
     <div className="min-h-screen bg-white relative overflow-hidden">
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col items-center justify-start min-h-screen px-2 pt-16">
+      <div className="relative z-10 flex flex-col items-center justify-start min-h-screen px-2 pt-8">
         
         {/* Small header text */}
-        <p className="text-gray-600  font-extralight  text-[23px] mt-2 mb-4 ">
+        <p className="text-gray-600  font-extralight  text-[23px] mt-10 mb-4 ">
           Join Our Community
         </p>
         
         {/* Main heading */}
-        <h1 className="text-[42px]  font-bold   text-center mb-4 max-w-4xl leading-tight">
-          Join an <span className="text-orange-500">Exclusive</span>
-          <br />
-          Network of AI Innovators
-        </h1>
-        
+
+           <h1 className="text-[42px] font-bold text-center mb-4 max-w-4xl leading-tight">
+  <TextAnimate className="[&_span:last-child]:text-orange-500">Join an Exclusive</TextAnimate>
+  <TextAnimate> Network of AI Innovators</TextAnimate>
+</h1>
+
         {/* Description text */}
         <p className="text-gray-500 font-extralight text-[18px] text-center max-w-xl mb-4 leading-relaxed">
           Join our private community to access discussions, job opportunities, 

@@ -72,24 +72,10 @@ const Page9 = () => {
           <AvatarCircles avatarUrls={avatars} />
         </div>
 
-
-
 <div className="text-center leading-tight text-[32px] font-extrabold mt-4 text-black mb-2">
-  <TextAnimate>Enroll Now & Get</TextAnimate>
-
- <div className='col-2'>
-    <span className="text-orange-500">
-    <TextAnimate animation="blurInUp" by="character" once>
-      {" Instant Access  "}
-    </TextAnimate>
-  </span>
-  <TextAnimate animation="blurInUp" by="character" once>
-    for $497
-  </TextAnimate>
-  </div>
+  <TextAnimate className="[&>*:nth-child(5)]:text-orange-500">Enroll Now & Get Instant</TextAnimate>
+  <TextAnimate className="[&>*:nth-child(1)]:text-orange-500">Access for $497</TextAnimate>
 </div>
-
-        
 
         <p className="text-gray-700 mb-6">
           Graduates report promotions, raises, or new

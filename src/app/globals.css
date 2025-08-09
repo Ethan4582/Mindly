@@ -50,6 +50,15 @@
   --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
+   --pricing-bg: rgb(10, 10, 10);
+  --pricing-card-bg: rgba(0, 0, 0, 0.7);
+  --pricing-border: rgba(79, 79, 79, 0.18);
+  --pricing-orange: #FF6F00;
+  --pricing-white: #FFFFFF;
+  --pricing-gray: rgb(232, 232, 232);
+  --pricing-h2-size: 1.25rem;
+  --pricing-title-size: 2.5rem;
+  --pricing-bonus-img-size: 2rem;
 }
 
 .dark {

@@ -1,5 +1,5 @@
 'use client';
-
+import { TextAnimate } from './magicui/TextAnimate';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, ChevronUp } from 'lucide-react';
@@ -50,16 +50,19 @@ export default function FaqSection() {
         />
       </div>
 
-      {/* FAQ Header */}
+     
       <div className="text-center mb-10">
         <p className="text-2xl text-gray-400 mb-2">FAQ</p>
         <h2 className="text-5xl font-bold">
-          Frequently Asked{' '}
+          <TextAnimate>Frequently Asked</TextAnimate>{' '}
           <div className='mt-3'> 
-            <span className="text-orange-500 ">Questions</span>
+            <span className="text-orange-500 ">
+              <TextAnimate>Questions</TextAnimate>
+            </span>
           </div>
         </h2>
       </div>
+
 
       {/* Accordion - Increased size */}
       <div className="w-full max-w-4xl space-y-4"> {/* Increased max width */}

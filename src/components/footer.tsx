@@ -19,6 +19,8 @@ const Footer = () => {
               </div>
               <p className="text-gray-600 text-[16px]">Learn the skill that turns everyday</p>
               <p className="text-gray-600 mb-8">AI into extraordinary results.</p>
+
+              
               <div className="flex justify-center md:justify-start mt-68 space-x-3 mt-4">
                 <a className="bg-white p-2 rounded-md shadow-lg hover:bg-gray-100" href="https://cv-pink-two.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="h-5 w-5" src="https://framerusercontent.com/images/2xorAgyqmiwmlkzDuNiEPrs.svg" alt="YouTube" />
@@ -33,6 +35,8 @@ const Footer = () => {
                   <img className="h-5 w-5" src="https://framerusercontent.com/images/sQw079Zec3UbFoHABD5ZSSzi1hs.svg" alt="Instagram" />
                 </a>
               </div>
+
+
             </div>
           </div>
 

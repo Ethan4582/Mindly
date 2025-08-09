@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-
+import { TextAnimate } from './magicui/TextAnimate';
 const LogoCarousel = () => {
   // SVG logo data
   const logos = [
@@ -19,9 +19,10 @@ const LogoCarousel = () => {
     <div className="w-full relative py-1 bg-black ">
       {/* Centered header */}
        <div className="relative flex items-center justify-center mb-10 mt-20">
-        <h2 className="text-5xl font-semibold text-white">
-          Our grads work here:
-        </h2>
+        <TextAnimate className="text-5xl font-semibold text-white">
+           Our grads work here:
+        </TextAnimate>
+    
         <img
           src="/banner.png"
           alt="text"
