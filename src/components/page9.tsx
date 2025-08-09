@@ -98,51 +98,40 @@ const Page9 = () => {
         </p>
 
 
-
-
-
-        <div className="flex justify-center mb-4 mt-2 w-full">
+ <div className="flex justify-center mb-2 w-full">
   <div className="relative flex justify-center w-full">
     {/* Centered Button with exact color */}
-    <a
+        <a
       href="./#pricing"
-      className="group relative flex items-center transition-all duration-700 rounded-lg px-4 py-2 text-white font-medium shadow-[inset_0_3px_8px_0_rgba(255,255,255,0.1),inset_0_-3px_6px_0_rgba(255,255,255,0.1)] overflow-hidden mx-auto"
-      style={{ backgroundColor: '#F97316', minWidth: '180px', maxWidth: '360px' }}
+      className="group relative flex items-center justify-center transition-all duration-700 rounded-lg px-4 py-3 text-white font-medium shadow-[inset_0_3px_8px_0_rgba(255,255,255,0.1),inset_0_-3px_6px_0_rgba(255,255,255,0.1)] overflow-hidden mx-auto"
+      style={{ backgroundColor: '#F97316', minWidth: '260px', maxWidth: '420px' }}
     >
       {/* Left arrow (hidden by default) */}
-      <div className="group-hover:opacity-100 opacity-0 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
+      <div className="max-w-0 group-hover:max-w-6 mr-0 group-hover:mr-1 overflow-hidden opacity-0 group-hover:opacity-100 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
         <img 
-          src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg" 
-          alt="" 
+          src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg"
+          alt=""
           className="w-3 h-3"
         />
       </div>
-
+   
       {/* Button text */}
-      <div className="flex-grow text-center transition-all duration-300 text-sm whitespace-nowrap px-1">
-        Enroll Today – Save $169
+      <div className="transition-all duration-300 text-sm whitespace-nowrap px-1">
+        Join Our Community - It's Free
       </div>
-
-
+  
       {/* Right arrow (visible by default) */}
-      <div className="group-hover:opacity-0 opacity-100 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
+      <div className="max-w-6 group-hover:max-w-0 ml-1 group-hover:ml-0 overflow-hidden opacity-100 group-hover:opacity-0 transition-all duration-700 flex items-center justify-center bg-white rounded w-6 h-6">
         <img 
-          src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg" 
-          alt="" 
+          src="https://framerusercontent.com/images/U0c022TYy3iR6YjbwbyxOaDRsk.svg"
+          alt=""
           className="w-3 h-3"
         />
       </div>
     </a>
-
-     <img
-              src="/text.png"
-              alt="text"
-              className="h-full w-auto object-contain absolute left-5/6 top-1/2 -translate-y-1/2"
-              style={{ background: "transparent" }}
-            />
   </div>
 </div>
-
+        
 
 
 
